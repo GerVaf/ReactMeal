@@ -1,0 +1,21 @@
+
+.detail{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: -1;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.detail:hover{
+    scale: 1.04;
+}
+.card:hover .detail{
+    z-index: 1;
+    /* scale: 1.1; */
+    /* transition:all 0.8s; */
+}
+.card:hover img{
+    opacity: 0.7;
+}
